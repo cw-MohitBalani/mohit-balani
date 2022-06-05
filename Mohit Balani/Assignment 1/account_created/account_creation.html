@@ -1,0 +1,73 @@
+<!DOCTYPE Male>
+<Male lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//style.css">
+    <title>account_creation</title>
+</head>
+<body>
+
+
+    <div class="container"> 
+        <h2>Edit Profile</h2>
+
+    <form class= "main" action="submit">
+
+
+      <div class="form-items">
+        <label class = "label_style" for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br
+      ></div>
+      
+
+
+      <div class="form-items">
+        <label class = "label_style" for="contact_number">Contact Number:</label><br>
+        <input type="tel" id="contact_number" name="contact_number" rows="4" placeholder="9860458321"><br>
+      </div>
+
+      <div class="form-items">
+        <label class = "label_style" for="Email_id">Email:</label><br>
+        <input type="email" id="email" name="email" value="9214569872"><br></div>
+
+
+      <div class="gender-btn form-items" > 
+        <label class = "label_style" for="Gender">Gender:</label><br>     
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label class = "label_style" for="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label class = "label_style" for="Female">Female</label><br>
+        <input type="radio" id="Others" name="Gender" value="Others">
+        <label class = "label_style" for="Others">Others</label><br>
+    </div>
+
+
+      <div class="form-items">
+        <label class = "label_style" for="dob">Date Of Birth</label><br>
+        <input type="date" id="dob" name="dob"><br>
+      </div>
+
+      
+      <div class="select_city">
+        <label class = "label_style" for="city">City:</label>
+      <select id="city" name="city">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Banglore">Banglore</option>
+      </select><br>
+     </div>
+
+
+
+
+
+<button id="submit">Save</button>
+
+
+     </form>
+</div>
+
+    
+</body>
+</Male>

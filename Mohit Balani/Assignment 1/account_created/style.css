@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#484848;
+}
+
+.container{
+
+
+padding-left: 2%;
+border: 1px solid lightgray;
+border-radius: 5px;
+
+ 
+} 
+
+
+h2{
+    text-align:left;
+    margin-bottom: 2%;
+
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"]{
+   
+padding-top: 10px;
+margin-top: 1%;
+width: 60%;
+
+padding-bottom:5px;
+
+
+
+}
+input[type="radio"]{
+    display: flex;
+    background-color:seagreen;
+    color: lightgreen;
+    padding-bottom: 2%;
+
+}
+.gender-btn{
+    display: flex;
+}
+
+#submit{
+    position: relative;
+    width: 60%;
+    padding-bottom: 5px;
+
+}
+
+.main > .form-items >label{
+    display: inline-block;
+    color: lime;
+    margin-top: 50px;
+}
+
+
+

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.card_view{
+    background-color: white;
+    width: 45%;
+    border: gray 1px solid;
+    border-radius: 8px;
+    height: 100%;
+  
+
+
+   }
+   .information{
+    background-color: whitesmoke;
+    padding-bottom: 55px;
+    padding-top: 25px;
+    
+}
+   .card_view h5{
+       padding-top: 5px;
+       margin-top: 10px;
+       margin-bottom: 20px;
+       text-decoration: none;
+       margin-left: 10px;
+  
+   }
+   .card_view p{
+      padding-top:5px;
+       text-decoration: none;
+       margin-left: 10px;
+
+   }
+  
+   .container{
+       background-color: whitesmoke;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       padding-bottom:10%;
+     
+   }
+
+
+.bg_color{
+    position: absolute;
+    width: 100%;
+    height :2%;
+    padding: 10%;
+    background-color:seagreen;
+   
+}
+.top_part{
+    position: relative;
+
+    /* left: 50%;
+    padding-top: 15%; */
+    padding-top: 12%;
+    text-align: center;
+ 
+
+
+
+}
+    
+    .mid_part{
+    display: flex;
+    justify-content: center;
+    padding-top:1%;
+    padding-bottom: 2%;
+
+}
+.box_one{
+    float: left;
+    margin-left: 28%;
+}
+.box_two{
+    float: right;
+    margin-right: 28%;
+    
+}
+.profile_image{
+    width:15%;
+    height:15%;
+    border-radius: 50%;
+}
