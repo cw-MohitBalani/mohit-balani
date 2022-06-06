@@ -2,11 +2,12 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 .card_view{
     background-color: white;
-    width: 45%;
+    width: 27%;
     border: gray 1px solid;
     border-radius: 8px;
     height: 100%;
@@ -20,28 +21,31 @@
     padding-top: 25px;
     
 }
-   .card_view h5{
+   .card_view h3{
        padding-top: 5px;
        margin-top: 10px;
        margin-bottom: 20px;
        text-decoration: none;
        margin-left: 10px;
+       font-weight:500;
   
    }
    .card_view p{
       padding-top:5px;
        text-decoration: none;
        margin-left: 10px;
+       color:#6f6f6f;
 
    }
   
    .container{
        background-color: whitesmoke;
        display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
-       padding-bottom:10%;
+       justify-content: space-around;
+       padding-bottom: 50px;
+
+       flex-wrap: wrap;
+
      
    }
 
@@ -50,8 +54,8 @@
     position: absolute;
     width: 100%;
     height :2%;
-    padding: 10%;
-    background-color:seagreen;
+    padding: 7%;
+    background-image: linear-gradient(#0e3a50,#00afa0);
    
 }
 .top_part{
@@ -59,7 +63,7 @@
 
     /* left: 50%;
     padding-top: 15%; */
-    padding-top: 12%;
+    padding-top: 5%;
     text-align: center;
  
 
@@ -74,17 +78,62 @@
     padding-bottom: 2%;
 
 }
-.box_one{
-    float: left;
-    margin-left: 28%;
+h2{
+    color: #484848;
 }
-.box_two{
-    float: right;
-    margin-right: 28%;
-    
-}
+
 .profile_image{
     width:15%;
     height:15%;
     border-radius: 50%;
+} 
+
+.box_one{
+    float: left;
+    margin-left: 3%;
+   
+}
+.box_two{
+    float: right;
+    margin-right: 3%;
+    font-weight: 500;
+    
+  
+    
+}
+
+@media screen and (max-width:800px){
+ 
+    .container{
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-bottom: 50px;
+        align-content: space-around;
+ 
+      
+    }
+    .card_view{
+        background-color: white;
+        width: 55%;
+        margin-bottom: 30px;
+        border: gray 1px solid;
+        border-radius: 8px;
+        height: 100%;
+      
+    
+    
+       }
+    .box_one{
+        float: left;
+        margin-left: 28%;
+    }
+    .box_two{
+        float: right;
+        margin-right: 28%;
+        
+    }
+ 
+  
 }

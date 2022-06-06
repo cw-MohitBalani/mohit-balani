@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-items{
+    margin-right:10px;
+    border: slategray 1px solid;
+}
+
+.container{
+  
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-content{
+
+    margin-top: 10px;
+    background-color:seagreen;
+}
